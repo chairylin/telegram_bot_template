@@ -1,0 +1,107 @@
+Array
+(
+    [update_id] => 11111111
+    [message] => Array
+        (
+            [message_id] => 11
+            [from] => Array
+                (
+                    [id] => 111
+                    [is_bot] => 
+                    [first_name] => name
+                    [username] => userName
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 11111111
+                    [first_name] => name
+                    [username] => userName
+                    [type] => private
+                )
+
+            [date] => 1111111
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [update_id] => 11111111
+    [callback_query] => Array
+        (
+            [id] => 11111111
+            [from] => Array
+                (
+                    [id] => 111111
+                    [is_bot] => 
+                    [first_name] => name
+                    [username] => userName
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 11
+                    [from] => Array
+                        (
+                            [id] => 111111111
+                            [is_bot] => 1
+                            [first_name] => Bot name
+                            [username] => botUserName
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 11111111
+                            [first_name] => name
+                            [username] => userName
+                            [type] => private
+                        )
+
+                    [date] => 111111111
+                    [text] => Hello
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Hi
+                                                    [callback_data] => 1
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Hello
+                                                    [callback_data] => 2
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => 11111111111
+            [data] => 1
+        )
+
+)
